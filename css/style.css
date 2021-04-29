@@ -1,0 +1,793 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{text-decoration: none;}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+header{
+	padding:15px 0;
+	/*margin:0 100px;*/
+	background-color:white;
+	display: block;
+}
+/*.sticky{
+	    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: rgba(36,47,81,0.9);
+    color: red;
+}*/
+a.nav-link{
+	margin-right: 15px;
+	color: #282828;
+
+}
+.navbar-brand img{
+
+     position: fixed;
+    left: 202px;
+    bottom: 29.5em;
+}
+li.nav-item.active{
+	font-size: 15px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #242f51 !important;
+    margin-right: 3px !important;
+
+
+}
+button.btn.btn-outline-success{
+	color: white;
+	background-color: blue;
+	border-radius: 50px;
+	padding:10px 30px; 
+	font-family: 'Poppins', sans-serif;
+	font-weight: 800;
+	border: none !important;}
+
+
+button.btn.btn-outline-success:hover{
+	border: 2px black !important;
+	background-color: red;
+	outline: none !important;
+}
+/*.............................................
+           SE PART
+.............................................*/
+.logo-text p{
+	margin: 0px;
+    background-color:#e2eaed;
+    color:#242f51;
+    padding: 0px 26px 1px 0px;
+    margin-left: 72px;
+    margin-right: 237px;
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+i.fa.fa-check-circle-o{
+	    color: white;
+    background-color: #feaa25;
+    height: 20px;
+    width: 23px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+.se-head h1{
+	       font-weight: 700;
+    color: #242f51;
+    font-size: 50px;}
+.se-head p{
+    padding-right: 73px;
+    padding-left: 82px;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 70px;
+}
+.se-text{
+    display: table-cell;
+    vertical-align: middle;
+    height: 98vh;
+    text-align: center;
+}
+
+.se-btn-1{
+	color: white;
+    background-color: blue;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    border: none;
+}
+
+.se-btn-2{
+	color: blue;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    border: none;
+}
+
+/*carousel slider */
+.owl-carousel .owl-item img{
+	width: auto !important;
+	height: 30px;
+    width: 100%;
+    /* margin: 10px 24px 10px 20px; */
+    margin-left: 60px;
+
+}
+.slide-bar{
+
+    /* margin: 10px 24px 10px 20px; */
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 80px;
+}
+.slide-head p{
+	text-align: center;
+
+}
+.owl-nav{
+	display: none;
+}
+.owl-dots{
+	display: none;
+}
+/*-----------------------------------------------
+MBL img part
+------------------------------------------*/
+.mbl-text h1{
+	color: #242f51;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mbl-text p{
+	
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 70px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.mbl-class{
+	    margin: 0 10px 0 10px;
+
+}
+
+
+
+.mbl-class-1{display: flex;}
+.img-1{
+	    background-color:  #ffecef;
+        height: 55px;
+    width: 61px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 30px;
+}
+.img-1 img{  
+   height: 33px;
+    
+    width: 35px;
+    color: blue;
+   
+   }
+ .img-2 img{  
+    height: 33px;
+    
+    width: 35px;
+    color: blue;
+   }
+  .img-3 img{  
+    height: 33px;
+    
+    width: 35px;
+    color: blue;
+   }
+
+
+
+.mbl-class-2{display: flex;}
+.img-2{
+	     background-color:  #f4f4ff;
+        height: 55px;
+    width: 61px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.mbl-class-3{display: flex;}
+.img-3{
+	    background-color:  #ffecef;
+    height: 55px;
+    width: 61px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 30px;
+}
+.sms-2 h3{
+	font-size: 25px;
+	font-weight: 700;
+	 margin-left: 35px;
+	 color:blue;
+}
+.sms-1 h3{
+ font-size: 25px;
+	font-weight: 700;
+	 margin-left: 35px;
+	 color:red;
+}
+.sms-3 h3{
+font-size: 25px;
+	font-weight: 700;
+	 margin-left: 35px;
+	 color:green;
+	} 
+.sms-1 p,.sms-2 p,.sms-3 p{
+	font-size: 13px;
+	margin-left:35px;
+	font-weight: 600;
+	    width: 181px;
+}
+/*-----------------------------------------------
+MBL img part
+------------------------------------------*/
+
+/*---------  LINE SECTION STARt----------------*/
+
+.line{
+	padding: 25px 0 90px 0;
+}
+.line-header h1{
+	font-size: 33px;
+    font-weight: 700;
+    /* text-align: center; */
+    /* width: 719px; */
+    margin-left: 141px;
+}
+
+.line-f{
+	display: flex;
+}
+.line-part{
+	background-color:  #616368;
+    height: 118px;
+    width: 2px;
+    margin-left: 14px;
+}
+
+.line-p{
+	    font-weight: 700;
+    color: #616368;
+    /* text-align: center; */
+    margin-left: 44px;
+    margin-top: 15px;
+}
+
+/*..............  LINE SECTION end...........*/
+
+/*ABOUT SECTION CSS START*/
+
+.about-us{
+	margin-left: 196px;
+	margin-bottom: 50px;
+}
+
+.about-img-1 img,.about-img-2 img,
+.about-img-3 img{
+
+	    height: 62px;
+}
+
+.about-img-1{
+	    background-color:#ffecef;
+    height: 83px;
+    width: 76px;
+    line-height: 79px;
+    text-align: center;
+    border-radius: 43px;
+        margin-bottom: 4px;
+}
+.about-img-2{
+	    background-color: #f4f4ff;
+    height: 83px;
+    width: 76px;
+    line-height: 79px;
+    text-align: center;
+    border-radius: 43px;
+        margin-bottom: 4px;
+}
+.about-img-3{
+	    background-color: #e4ffee;
+    height: 83px;
+    width: 76px;
+    line-height: 79px;
+    text-align: center;
+    border-radius: 43px;
+        margin-bottom: 4px;
+}
+
+
+
+.about-text-1 h3{
+	font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #f66b79;
+}
+
+.about-text-2 h3{
+	font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #2563ff;
+}
+
+.about-text-3 h3{
+	font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: #40975f;
+}
+
+
+.about-text-1 p,.about-text-2 p,.about-text-3 p{font-size: 15px;
+    width: 220px;
+    font-weight: 600;
+    color: #616368;}
+
+.about-text-2 p{}
+
+.about-text-3 p{}
+/*ABOUT SECTION END*/
+
+/*----------INTEGRATION SECTION CSS  start-------------------*/
+
+.inte-post{
+	    margin-top: 116px;
+}
+
+.inte-post h1{
+     font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Poppins',sans-serif;
+    color: #242f51;
+}
+.inte-post p
+{
+    font-weight: 600;
+    color: #616368;
+    font-size: 17px;
+    width: 378px;
+}
+
+
+
+.inte-btn{
+	color: white;
+    background-color: blue;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    border: none;
+}
+
+/*----------INTEGRATION SECTION CSS  end -------------------*/
+
+/*((((((((((((((  ALL CALSSIFICATION ABOUT OUT APP css start )))))))))))))*/
+
+.our-app{
+	padding-top: 40px;
+	margin-bottom:40px;
+}
+
+.our-header h1{
+  text-align: center;
+    color: #4c5571;
+    font-weight: 700;
+    font-size: 35px;
+    
+    margin-bottom: 30px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.our-header p{
+	    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+.our-app-here{
+margin-top: 86px;
+    margin-bottom: 40px;
+}
+
+.apps {
+	    margin-top: 130px;
+    text-align: center;
+}
+
+.apps img{
+	margin-bottom: 20px;
+	width: 80px;
+}
+.apps h3{
+	font-size: 30px;
+	font-weight: 700;
+	font-family: 'Poppins',sans-serif;
+	color:#4c5571; 
+}
+.apps  p{
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+/*(((((((((((((  ALL CALSSIFICATION ABOUT OUT APP css end ))))))))))))))))*/
+
+/*[[[[[[[[  ultimate features  css from here    ]]]]]]]*/
+
+
+.ultimate{
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+.ultimate-header{margin-top: 100px;
+	margin-bottom: 10px;
+
+}
+.ultimate-header h3{
+	color: #242f51;
+    font-size: 30px;
+    /* margin-top: 44px; */
+    font-weight: 700;
+    font-family: 'poppins',sans-serif;
+}
+.ultimate-header p{
+	    font-size: 13px;
+    padding-top: 5px;
+  /*  margin-bottom: 40px;*/
+    font-weight: 600;
+     font-family: 'poppins',sans-serif;
+}
+.left-post{
+margin-top: 5em;
+}
+.left-post img{
+	width: 80px;
+	margin-bottom: 10px;
+	background-color: blue;
+	border-radius: 50px;
+	border: 2px solid blue;
+}
+
+.left-post h3{
+	font-size: 25px;
+	font-weight: 700;
+	font-family: 'poppins',sans-serif;
+	color: #242f51;
+}
+.left-post p{
+	font-size: 15px;
+	font-weight: 600;
+	font-size: 15px;
+	color: #242f51;
+	margin-bottom: 30px;
+}
+.ultimate-btn{
+	color: white;
+    background-color: blue;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    border: none;
+}
+
+
+/*[[[[[[[[[[   ultimate features css end here   ]]]]]]]]]]]]*/
+
+/*########  Charge css   ################*/
+.charge{
+	padding-top: 40px;
+}
+.charge-head{
+	padding-bottom: 60px;
+	margin-bottom: 50px;
+
+}
+.charge-head h2{
+	text-align: center;
+	 font-size: 40px;
+	font-weight: 700;
+	color:#242f51;
+	padding-bottom: 10px;
+}
+.charge-head p{
+	text-align: center;
+	color: solid black;
+	font-weight: 700;
+	padding-bottom:50px;
+}
+.trigger{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	border: 1px solid #616368;
+       padding: 0px;
+    border-radius: 50px;
+    position: absolute;
+    left: 35em;
+    margin-bottom: 40px;
+}
+.tri-1{
+	color: white;
+    background-color: blue;
+    border-radius: 50px;
+    padding: 14px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    border: none;
+
+}
+ .tri-2{
+ 	        /* color: gray; */
+    background-color: transparent;
+    /* border-radius: 50px; */
+    padding: 10px 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    /* border: 2px solid black; */
+    border: none;
+
+ }
+
+ .dollar{
+margin: 4em;
+ }
+
+.cards{
+	    margin-left: 50px;
+    text-align: center;
+    box-shadow: -3px 4px 6px 1px;
+    padding-bottom: 30px;
+
+}
+.past{
+	background-color: #d3fefe;
+	padding-bottom: 40px;
+	text-align: center;
+    padding-top: 44px;
+
+}
+.cards  h3{
+	font-size: 90px;
+	font-weight: 500;
+}
+.cards span{
+	font-size: 15px;
+}
+.cards h6{
+	font-weight: 700;
+}
+.cards .past p{font-weight: 400;
+	color:#999ca5;
+}
+.cards ul li{
+	list-style: none;
+	margin-bottom: 20px;margin-top: 10px;
+	position: relative;
+    left: -17px;
+
+
+}
+.p-btn{
+	color: white;
+    background-color: blue;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    border: none;
+}
+.note p{
+	margin-top: 15px;
+	color: blue;
+	font-weight: 700;
+}
+/*###### Charge css  ########*/
+.feedback{
+	padding-bottom: 30px;
+	padding-top: 150px;
+}
+.seller h2{
+	    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'poppins',sans-serif;
+    colo
+}
+
+
+
+
+
+
+
+
+
+/*^^^^^^^^^ACCORDIAN CSS START FROM HERE^^^^^^^^^^*/
+
+.a-start{
+	padding-top: 40px;
+	padding-bottom: 70px;
+	background-color: #f5f7fa;
+	    width: 55%;
+    position: relative;
+    left: 16em;
+}
+
+.a-header{
+	padding-bottom: 40px;
+}
+.a-header h2{
+     text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #242f51;
+     font-size: 40px;
+}
+.a-header p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+.accordion-item h2 .accordion-button{
+	color: blue;
+	font-weight: 600;
+	font-size: 20px;
+	background-color: #f5f7fa;
+
+}
+
+.accordion-body{
+	color:green;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+/*^^^^^^^^^^^^ACCORDIAN CSS END HERE^^^^^^^^^^^^^^^^^^*/
+.download{    position: relative;
+    top: 38px;}
+
+
+
+.download-2{
+	
+    position: relative;
+    left: 85px;
+    right: 0;
+    bottom: 8px;
+    width: 34em;}
+
+.download-2 h2{
+	    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'poppins' sans-serif;
+    padding-bottom: 5px;
+}
+.download-2 p{
+	    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+/*..............................................
+
+FOOTER PART from here
+
+............................................*/
+.footer{
+	background-color: #09142e;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 5em;
+}
+.fot-logo img{
+    position: relative;
+    left: 531px;
+    padding-top: 10em;
+    padding-bottom: 30px;
+    width: 97px;
+
+}
+.fot-li ul li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 13px;
+
+}
+.fot-li ul li:hover{
+	color: green;
+	cursor: pointer;
+	font-weight: 800;
+}
+.fot-li ul{    /* margin-left: 10px; */
+    text-align: center;}
+.fot-li ul li a{
+	    margin-right: 20px;
+
+}
+    /*FOT ICON*/
+
+.fot-icon ul li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	left: 27em;
+}
+.fot-icon ul li a{
+	margin-left: 25px;
+	font-size: 25px;
+	color:#273043;
+}
+.dif{
+	color: white!important;
+}
+.fot-icon ul li a:hover{
+	color: yellow;
+}
+.fot-tex p{
+	color: white;
+	position: relative;
+	left: 27em;
+	top:65px;
+}
+.fot-tex p i{
+	color: red;
+	font-size: 25px;
+	position: relative;
+	right: 8px;
+	top: 3px;
+}
+.own{
+	color: green;
+	font-size: 23px;
+	font-weight: 700;
+	position: relative;
+	top: 3px;
+	animation-duration: 5s;
+}
+
+
+.sticky{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	right: 0;
+z-index: 9999;
+	background-color:rgb(95,144,149); 
+	display: block;
+}
+.o
